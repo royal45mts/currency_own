@@ -1,4 +1,4 @@
-exports.currency_rupiah = (angka: any, prefix: string) => {
+export const currency_rupiah = (angka: any, prefix: string) => {
   try {
     const text_string = angka.toString().replace(/[^-,\d]/g, "");
     const split =
